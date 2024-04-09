@@ -3,6 +3,7 @@ const altura = document.querySelector('#altura')
 const peso = document.querySelector('#peso')
 
 const calcImc = () => {
+  console.log('eai')
   if(altura.value !== '' && peso.value !== ''){
   const imc = (peso.value / (altura.value * altura.value)).toFixed(2)
 
